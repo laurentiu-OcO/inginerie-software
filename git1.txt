@@ -1,1 +1,2 @@
 "Git 1" 
+"Modificare pe branch-ul varianta1" 
