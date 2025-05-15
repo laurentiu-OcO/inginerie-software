@@ -1,0 +1,97 @@
+1. Clasele
+-avem următoarele clase:
+
+Clasa Student
+Atribute:
+
+nume
+adresa
+nrTelefon
+email
+IDstudent
+mediaNotelor
+
+Metode:
+
+esteEligibilInscriere()
+getSeminariiAlese()
+
+Clasa Profesor
+Atribute:
+
+nume
+adresa
+nrTelefon
+email
+salar
+
+Clasa Seminar
+Atribute:
+
+nume
+IDseminar
+taxe
+
+Metode:
+
+addStudent()
+dropStudent()
+
+Clasa Inscriere
+Atribute:
+
+notePrimite
+
+Metode:
+
+getMediaLaZi()
+getNotaFinala()
+
+2. Relațiile dintre clase
+
+Asocieri
+Student <-> Inscriere
+
+Multiplicitate: 1 la 1..*
+
+Un student poate avea una sau mai multe înscrieri.
+
+Este etichetată „inscris”.
+
+Student <-> Seminar
+
+Multiplicitate: 0..*
+
+Un student poate fi pe lista de așteptare la mai multe seminarii.
+
+Seminar <-> Inscriere
+
+Multiplicitate: 0..*
+
+Un seminar poate avea mai mulți studenți înscriși.
+
+Profesor <-> Seminar
+
+Multiplicitate: 0..1
+
+Un seminar poate avea un profesor sau poate să nu aibă niciunul.
+
+Etichetat „predă”.
+
+3. Note explicative
+Caseta cu text: „E posibil ca unele seminarii să nu aibă instructor.”
+
+Este conectată la relația dintre Profesor și Seminar cu o linie punctată.
+
+Aceasta este o constrângere care explică un detaliu specific al sistemului.
+
+4. Multiplicitățile
+Indică numărul de instanțe care pot participa într-o relație:
+
+1 -> Exact o instanță.
+
+1..* -> Cel puțin o instanță, fără limită superioară.
+
+0..* -> Oricâte instanțe (posibil niciuna).
+
+0..1 -> Fie o instanță, fie niciuna.

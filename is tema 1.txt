@@ -1,0 +1,41 @@
+2.Ce este UML si pentru ce este utilizat?
+	Unified Modeling Language (prescurtat UML) este un limbaj de modelare generalizat standardizat în domeniul ingineriei software. Standardul este gestionat și a fost creat de OMG (Object Management Group). Include un set de tehnici de notare grafică pentru a crea modele vizuale de sisteme intensive în software.
+
+3.Ce sunt modelele si care este utilitatea lor?
+	Modelele sunt reprezentari abstracte ale sistemelor software care ajuta la intelegerea, proiectarea si dezvoltarea acestora. Ele sunt utile pentru clarificarea cerintelor si specificatiilor unui sistem, vizualizarea arhitecturii software, standardizarea comunicarii intre membrii echipei si detectarea si prevenirea erorilor in fazele incipiente.
+
+5.Ce tipuri de diagrame sunt prezentate in [1] – Capitolul 2? Care sunt asemanarile si
+deosebirile?
+	Tipurile de diagrame prezentate sunt:
+Diagrama de clase (Class Diagram)
+Diagrama de caz de utilizare (Use Case Diagram)
+Diagrama de activitate (Activity Diagram)
+Diagrama de secventa (Sequence Diagram)
+Diagrama masinii de stare (State Machine Diagram)
+	Asemanari intre diagramele prezentate:
+Fiecare diagramă ajută la vizualizarea și documentarea unui anumit aspect al arhitecturii software.
+Toate urmează principiile orientării pe obiecte și pot fi integrate în diferite faze ale dezvoltării software.
+	Deosebiri intre diagramele prezentate
+Diagrama de clase este statica, in timp ce diagramele de activitate, secventa si stare sunt dinamice.
+Diagrama de caz de utilizare se concentreaza pe interactiunea utilizatorilor cu sistemul, pe cand celelalte modeleaza comportamentul intern.
+Diagrama de secventa arata ordinea mesajelor, pe cand diagrama de activitate modeleaza fluxul unui proces.
+Diagrama masinii de stare este specifica pentru modelarea tranzitiilor dintre diferite stari ale unui obiect.
+
+6.Caracterizati succint fiecare diagramele din [1] – Capitolul 2 (cele 5 mentionate mai
+sus)
+	Caracterizarea succintă a fiecărei diagrame din imagini:
+
+Diagrama de clase (Class Diagram)
+Reprezinta structura statica a unui sistem. Include clase, atribute, metode si relatiile dintre ele. Utilizata pentru proiectarea arhitecturii sistemului.
+
+Diagrama de caz de utilizare (Use Case Diagram)
+Ilustreaza interactiunea dintre utilizatori (actori) si sistem. Contine cazuri de utilizare (functionalitati) si relatiile dintre ele. Ajuta la definirea cerintelor sistemului.
+
+Diagrama de activitate (Activity Diagram)
+Modeleaza fluxul logic al unui proces sau al unei functionalitati. Include activitati, decizii, actiuni paralele si noduri de sincronizare. Utila pentru descrierea algoritmilor si proceselor.
+
+Diagrama de secvenata (Sequence Diagram)
+Reprezinta interactiunea dintre obiecte in timp. Arata mesajele schimbate intre obiecte si ordinea acestora. Utilizata pentru analiza scenariilor si comportamentului sistemului.
+
+Diagrama masinii de stare (State Machine Diagram)
+Modeleaza schimbarile de stare ale unui obiect pe parcursul ciclului sau de viata. Contine stari, tranzitii si evenimente care determina schimbarile. Utilizata pentru modelarea logicii bazate pe stari.
